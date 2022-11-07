@@ -101,3 +101,9 @@ header {
     max-height: 475px;
     object-fit: cover;
 }
+
+@media screen and (max-width:768px) {
+    .carousel-row{
+        flex-direction: column-reverse;
+    }
+}
