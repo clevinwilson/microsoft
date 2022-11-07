@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header,
+nav {
+    background-color: #fff;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.header-right-section {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand>img {
+    width: 108px;
+}
+
+.nav-link {
+    font-size: 13px;
+}
+
+.nav-toggler {
+    border: none !important;
+}
+
+.account-icon-wrap {
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 2px 6px 3px 6px;
+}
+
+.navbar-toggle {
+    border: none;
+    background-color: #fff;
+    display: none;
+}
+
+@media screen and (max-width:990px) {
+    .navbar>.container-fluid {
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .navbar>.container-fluid {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+}
+
+
+
+/* carousel */
+
+#carouselExampleIndicators {
+    margin-top: 56px;
+    background-color: #f4f4f6;
+}
+
+.carousel-text-wrap {
+    max-width: 360px;
+}
+
+.carousel-badge {
+    color: #8a1212;
+    font-weight: 500;
+    background-color: #ffffff;
+    padding: 2px 9px 3px 10px;
+}
+
+.carousel-text-wrap>button {
+    padding: 6px 10px 7px 10px;
+    border-radius: 2px;
+    border: none;
+    background-color: black;
+    color: #ffffff;
+}
+
+.carousel-img {
+    max-height: 475px;
+    object-fit: cover;
+}
