@@ -3,7 +3,9 @@
     padding: 0;
 }
 
-
+body {
+    margin-bottom: 50px;
+}
 
 header,
 nav {
@@ -126,4 +128,39 @@ header {
     color: #950c17;
     font-weight: 500;
     text-decoration: none;
+}
+
+/* download */
+
+.edge-wrap {
+    position: relative;
+}
+
+.edge-download-bg-img {
+    width: 100%;
+    height: 480px;
+    object-fit: cover;
+}
+
+.download-card {
+    position: absolute;
+    max-width: 356px;
+    height: 311px;
+    top: 75px;
+    left: 51px;
+    background-color: white;
+}
+
+.download-btn {
+    padding: 6px 10px 7px 10px;
+    border-radius: 2px;
+    border: none;
+    background-color: black;
+    color: #ffffff;
+}
+
+@media screen and (max-width:768px) {
+    .download-card {
+        position: initial;
+    }
 }
