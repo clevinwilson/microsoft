@@ -103,7 +103,15 @@ header {
 }
 
 @media screen and (max-width:768px) {
-    .carousel-row{
+    .carousel-row {
         flex-direction: column-reverse;
     }
+}
+
+/* ribbon nav */
+
+.ribbon-text {
+    font-size: 17px;
+    text-align: center;
+    font-weight: 500;
 }
