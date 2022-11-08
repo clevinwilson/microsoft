@@ -164,3 +164,12 @@ header {
         position: initial;
     }
 }
+
+.footer-nav {
+    display: flex;
+    grid-gap: 24px;
+}
+
+.footer-nav-icon{
+    font-size: 23px;
+}
