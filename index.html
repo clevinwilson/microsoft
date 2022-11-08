@@ -44,10 +44,13 @@
                             <i class="bi bi-x-lg close"></i>
                         </button>
 
-
+                            <div style="display:none; width:100%;" id="search-box" class="search-box-wrap">
+                                <input class="search" style="width:100% ;" type="text" placeholder="Search">
+                                <button onclick="cancelSearch()" type="button" class="mx-2 btn btn-outline-secondary">Cancel</button>
+                            </div>
 
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <ul  id="collapse-wrap" class="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
                                     <a class="nav-link active" aria-current="page" href="#">Microsoft 365</a>
                                 </li>
@@ -67,19 +70,20 @@
                                     <a class="nav-link active" aria-current="page" href="#">Support</a>
                                 </li>
                             </ul>
+                      
                         </div>
                     </div>
                 </nav>
             </div>
             <div class="col md-6 col-3 pl-0">
-                <ul class="header-right-section">
+                <ul id="header-right-section" class="header-right-section">
                     <li class="nav-item d-none d-md-block mr-3">
                         <a class="nav-link" href="">All Microsoft
                             <i class="bi bi-chevron-down"></i>
                         </a>
                     </li>
                     <li class="nav-item  d-none d-md-block pr-3">
-                        <i class="bi bi-search"></i>
+                        <i onclick="search()" class="bi bi-search"></i>
                     </li>
                     <li class="nav-item">
                         <i class="bi bi-cart"></i>
@@ -89,6 +93,8 @@
                     </li>
                 </ul>
             </div>
+
+            
         </div>
     </header>
 
