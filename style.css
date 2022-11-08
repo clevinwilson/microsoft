@@ -170,6 +170,34 @@ header {
     grid-gap: 24px;
 }
 
-.footer-nav-icon{
+.footer-nav-icon {
     font-size: 23px;
+}
+
+
+/* back to top bnt */
+
+.to-top-btn {
+    background-color: #d9d9d9;
+    padding: 8px 10px 10px 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    transition: all .15s;
+    border-radius: 3px;
+}
+
+.to-top-btn:hover {
+    background-color: #ffffff;
+    box-shadow: 1px 1px 5px 0px #bebdbd;
+    color: black;
+}
+
+@media screen and (max-width:768px) {
+    .to-top-btn {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
 }
